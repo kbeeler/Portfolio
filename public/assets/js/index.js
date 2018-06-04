@@ -27,7 +27,7 @@ $(document).ready(function(){
       console.log({
         userName: unameInput.trim(),
         email: emailInput.trim(),
-        password: pswdInput
+        password: pswdInput\
           .trim()
       })
       // Don't do anything if the name fields hasn't been filled out
