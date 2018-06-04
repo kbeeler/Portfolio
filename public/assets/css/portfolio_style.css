@@ -1,3 +1,17 @@
 .nav-wrapper {
   background-color: black  !important;
 }
+
+.carousel {
+	height: 2px !important
+    width: 400% !important
+}
+
+.carousel .carousel-item {
+  visibility: hidden;
+  width: 350px !important;
+  height: 350px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
